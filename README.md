@@ -13,3 +13,6 @@ event_20170707.json:
 {"date":"2017-07-07", "record":[
   {"event":"阅读《SICP》", "duration":"2hr"，"now":"1506477639382"}
 ]}
+
+event请求格式:
+http://localhost:3000/event?e=read&d=1hr
