@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lingyv/record_life#readme",
   "dependencies": {
-    "express": "^4.15.5"
+    "koa": "^2.3.0"
   }
 }
