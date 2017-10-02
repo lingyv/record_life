@@ -1,0 +1,23 @@
+{
+  "name": "record_life",
+  "version": "1.0.0",
+  "description": "记录生活",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingyv/record_life.git"
+  },
+  "author": "lingyv",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lingyv/record_life/issues"
+  },
+  "homepage": "https://github.com/lingyv/record_life#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1"
+  }
+}
