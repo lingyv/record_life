@@ -1,7 +1,7 @@
 'use strict';
 
 let path = require('path');
-var fs = require("fs") ;
+let fs = require("fs") ;
 
 /**
  * 保存事件记录
