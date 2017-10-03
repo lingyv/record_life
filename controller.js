@@ -5,7 +5,6 @@ let app = new Koa();
 const router = require('koa-router')();
 const staticFile = require('koa-static');
 let fs = require("fs") ;
-const path = require('path');
 let event = require('./service/event');
 
 // time
