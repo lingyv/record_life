@@ -109,10 +109,10 @@ function timeZoneDate(i){
 	if (typeof i !== 'number') return;
 	let date = new Date(Date.now() + 3600000 * i);
 	let month = date.getUTCMonth() + 1;
-    let date = date.getUTCDate();
+    let newDate = date.getUTCDate();
 	return {year: date.getUTCFullYear().toString(),
 		month: month < 10 ? '0' + month.toString() : month.toString(),
-		date: date < 10 ? '0' + date.toString() : date.toString()};
+		date: newDate < 10 ? '0' + newDate.toString() : newDate.toString()};
 }
 
 module.exports = {saveEvent: saveEvent};
